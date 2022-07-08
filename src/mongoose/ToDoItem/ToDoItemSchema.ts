@@ -12,7 +12,7 @@
     title: {type: String, required: true, trim: true},
     completed: {type: Boolean, default: false},
     createdAt: {type: Number, default: Date.now},
-    deadline: {type: Number, default: getDefaultDeadline},
+    deadline: {type: Number, default: null},
  }, {collection: "ToDoItems"})
 
  function addDays(date: number | Date, days: number): Number {

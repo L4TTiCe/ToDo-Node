@@ -53,8 +53,10 @@ import {ToDoItemController} from "./controllers/ToDoItemController";
     connectDatabase()
     const app = initializeApp();
 
-    app.get("/up", (req: Request, res: Response) =>
-        res.send("Server is Up!"));
+    app.get("/up", (req: Request, res: Response) => {
+        res.send("Server is Up!");
+        console.log('Health Check: Server is Up!');
+    });
 
     app.listen(port);
     console.info("Listening @ PORT ", port);
