@@ -2,6 +2,11 @@
 
 ## A Simple To Do App backend
 
+This repository contains a simple backend built using Express, for a
+basic ToDo Application.
+
+The Source for the frontend can be found at [github.com/L4TTiCe/ToDo-SvelteKit](https://github.com/L4TTiCe/ToDo-SvelteKit).
+
 For more information about the TASK, refer to [TASK.md](TASK.md).
 
 ### Requirements
