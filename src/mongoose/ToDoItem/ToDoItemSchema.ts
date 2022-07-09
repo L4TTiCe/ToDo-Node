@@ -4,7 +4,7 @@
 import mongoose from 'mongoose';
 
 /**
- * The ToDoItemSchema represents how a {@link ToDoItem} is represented in the database.
+ * The ToDoItemSchema represents how a {@link models/ToDoItem} is represented in the database.
  * @typedef {ToDoItemSchema} ToDoItemSchema
  */
 export const ToDoItemSchema = new mongoose.Schema(

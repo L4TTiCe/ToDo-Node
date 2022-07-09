@@ -17,7 +17,7 @@ export class ToDoItemController implements ToDoItemControllerI {
 	}
 
 	/**
-	 * @param app {Express} the Express instance to attach the controller to
+	 * @param {Express} app - the Express instance to attach the controller to
 	 * @return {ToDoItemController} the singleton ToDoItemController instance
 	 */
 	public static getInstance(app: Express): ToDoItemController {

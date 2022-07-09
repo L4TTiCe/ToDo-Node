@@ -7,7 +7,7 @@ import { ToDoItemDaoI } from './interfaces/ToDoItemDaoI';
 import { ObjectId } from 'bson';
 
 /**
- * @class ToDoItemDao ToDoItemDao Implements the ToDoItemDaoI, with all the CRUD functionalities for the ToDoItem resource
+ * @class {ToDoItemDao} ToDoItemDao Implements the ToDoItemDaoI, with all the CRUD functionalities for the ToDoItem resource
  * @property {ToDoItemDao} toDoItemDao - Singleton DAO implementing ToDoItem CRUD operations
  */
 export class ToDoItemDao implements ToDoItemDaoI {
