@@ -10,7 +10,8 @@
 		"lint": "eslint ./src --ext .ts",
 		"build": "tsc --project ./",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"format": "prettier --write --plugin-search-dir=. ."
+		"format": "prettier --write --plugin-search-dir=. .",
+		"docs": "typedoc --entryPointStrategy expand ./src"
 	},
 	"author": "Dheshan Mohandass",
 	"license": "MIT",
@@ -22,6 +23,7 @@
 		"nodemon": "^2.0.19",
 		"prettier": "2.7.1",
 		"ts-node": "^10.8.2",
+		"typedoc": "^0.23.6",
 		"typescript": "^4.7.4"
 	},
 	"dependencies": {
