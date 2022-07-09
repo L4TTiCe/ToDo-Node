@@ -1,11 +1,13 @@
-# Intel 2022 - GPU Software Development Intern 
+# Intel 2022 - GPU Software Development Intern
 
 ## A Simple To Do App backend
 
 For more information about the TASK, refer to [TASK.md](TASK.md).
 
 ### Requirements
+
 This repository requires
+
 - [Node.JS](https://nodejs.org/en/) LTS - 16
 
 ### Running the Application
