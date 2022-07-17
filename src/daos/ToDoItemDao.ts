@@ -52,11 +52,11 @@ export class ToDoItemDao implements ToDoItemDaoI {
 	}
 
 	public async findToDoItemsAfterDate(date: Number, sort): Promise<any> {
-		return ToDoItemModel.find({ createdAt: { $gte: date } }).sort({ createdAt: 'asc' });
+		return ToDoItemModel.find({ createdAt: { $gte: date } }).sort({ createdAt: sort ? sort : 'asc' });
 	}
 
 	public async findToDoItemsBeforeDate(date: Number, sort): Promise<any> {
-		return ToDoItemModel.find({ createdAt: { $lte: date } }).sort({ createdAt: 'desc' });
+		return ToDoItemModel.find({ createdAt: { $lte: date } }).sort({ createdAt: sort ? sort : 'desc' });
 	}
 
 	public async findToDoItemsBetweenDates(start: Number, end: Number, sort): Promise<any> {
